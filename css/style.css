@@ -4,7 +4,13 @@ mark, rp, rt, ruby, summary, time {display:inline;}
 
 /* Global properties ======================================================== */
 html {width:100%;}
-body {font-family:Arial, Helvetica, sans-serif;font-size:100%; color:#7f7f7f;min-width:960px;background:#000}
+body {
+	font-family:Arial, Helvetica, sans-serif;font-size:100%;
+	color:#7f7f7f;
+	min-width:960px;
+	/** background:#000 */
+	
+	}
 .ic {border:0;float:right;background:#fff;color:#f00;width:50%;line-height:10px;font-size:10px;margin:-220% 0 0 0;overflow:hidden;padding:0}
 .bg {width:100%; background:url(../images/bg-top.jpg) center 0 no-repeat;}
 
@@ -27,7 +33,7 @@ a:hover {text-decoration:none;}
 .col-1, .col-2,
 .column-1, .column-2 {float:left;}
 
-.wrapper {width:100%; overflow:hidden;}
+.wrapper {width:100%; overflow:hidden;  }
 .extra-wrap {overflow:hidden;}
 .clear {
 	clear: both;
@@ -90,7 +96,7 @@ h1 a {text-decoration:none;}
 /*********************************header*************************************/
 header {
 	width:100%;
-	background:#f2f2f2;
+	/** background:  #f2f2f2; */
 	position:relative; 
 	z-index:2;
 }
@@ -98,7 +104,7 @@ header {
 .row-top {
 	width:100%;
 	padding:10px 0;
-	background:#F2F2F2;
+	/**  background:#F2F2F2;  */
 }
 
 h1 {
@@ -110,7 +116,7 @@ h1 {
 		font-size:50px;
 		font-weight:normal;
 		line-height:1.4em;
-		color:#fff;
+		color:black;  /* font color */
 		letter-spacing:-3px;
 		margin-top:-10px;
 	}
@@ -139,7 +145,7 @@ h2 {
 	font-size:14px; 
 	line-height:18px; 
 	padding:0; 
-	color:#fff; 
+	/* color:#fff; */
 }
 .menu li a.active,
 .menu > li > a:hover {color:#c52e02;}
@@ -152,7 +158,7 @@ h2 {
 	width:100%;
 	min-height:122px;
 	/**  background:url(../images/row-bot-bg.jpg) center top no-repeat; ***/
-	background:#f2f2f2;
+	/**  background:#f2f2f2; */
 }
 
 /***** slider *****/
@@ -195,7 +201,7 @@ h2 {
 #content {
 	width:100%; 
 	padding:15px 0 50px;
-	background:#f2f2f2;
+	/*  background:#f2f2f2;  */
 	position:relative;
 	z-index:1;
 }
@@ -436,7 +442,7 @@ dl span {float:left; width:96px; font-weight:bold;}
 footer {
 	width:100%; 
 	padding:23px 0 30px;
-	color:#fff;
+	/** color:#fff;  */
 }
 	footer a {color:#c42e02;}
 	footer span {display:block;}
