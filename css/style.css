@@ -159,14 +159,14 @@ h2 {
 .slider-wrapper {
 	width:940px;
 	height:466px;
-	padding:10px;
-	background:#fff;
+	/*** padding:10px;  ***/
+	/**　background:#fff;　　***/
 	overflow:hidden;
 }
 .slider {
 	width:940px;
 	height:466px;
-	margin-left: 130px;   /*  added */
+	margin-left: 130px;    /* added */
 }
 .items {display:none;}
 
