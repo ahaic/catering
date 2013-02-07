@@ -157,6 +157,7 @@ h2 {
 	line-height:18px; 
 	padding:0; 
 	/* color:#fff; */
+	font-weight:bold;
 }
 .menu li a.active,
 .menu > li > a:hover {  /*  color:#c52e02;   */}
@@ -329,7 +330,7 @@ dl span {float:left; width:96px; font-weight:bold;}
 /***** bx-slider *****/
 .bx-wrapper {overflow:hidden; position:relative;}
 	#page2 .bx-wrapper {width:450px !important; height:545px;}
-	#page3 .bx-wrapper {width:940px !important; height:752px;}
+	#page3 .bx-wrapper {width:940px !important;  /* height:752px;*/ }
 .bx-window {height:510px; overflow:hidden; width:100%; position:relative;}
 	#page3 .bx-window {height:420px;}
 #slider {
