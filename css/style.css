@@ -272,6 +272,7 @@ h6 {color:#769e02;}
 	line-height:18px; 
 	padding:6px 0 6px 20px; 
 	background:url(../images/marker-1.png) 0 12px no-repeat;
+	font-weight:bold;
 }
 	.list-1 a {
 		display:inline-block;
@@ -457,7 +458,7 @@ footer {
 	padding:23px 0 30px;
 	color:#fff; 
 }
-	footer a {color:#c42e02;}
+	footer a { float:right;}
 	footer span {display:block;}
 	footer .main {font-size:14px; line-height:25px;}
 
