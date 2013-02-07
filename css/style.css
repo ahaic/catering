@@ -159,7 +159,7 @@ h2 {
 	/* color:#fff; */
 }
 .menu li a.active,
-.menu > li > a:hover {color:#c52e02;}
+.menu > li > a:hover {  /*  color:#c52e02;   */}
 
 .row-bot {
 	width:100%;
