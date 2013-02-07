@@ -1,26 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Menu</title>
+    <title>Catalogue</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
     <link rel="stylesheet" href="css/layout.css" type="text/css" media="screen"> 
+    <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen">
     <script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
     <script src="js/cufon-yui.js" type="text/javascript"></script>
     <script src="js/cufon-replace.js" type="text/javascript"></script> 
     <script src="js/Dynalight_400.font.js" type="text/javascript"></script>
     <script src="js/FF-cash.js" type="text/javascript"></script>  
-    <script src="js/jquery.equalheights.js" type="text/javascript"></script>    
+    <script src="js/jquery.prettyPhoto.js" type="text/javascript"></script> 
+    <script src="js/hover-image.js" type="text/javascript"></script>
+    <script src="js/jquery.easing.1.3.js" type="text/javascript"></script>  
     <script src="js/jquery.bxSlider.js" type="text/javascript"></script> 
     <script type="text/javascript">
 		$(document).ready(function() {
-			$('#slider').bxSlider({
+			$('#slider-2').bxSlider({
 				pager: true,
 				controls: false,
 				moveSlideQty: 1,
-				displaySlideQty: 3
+				displaySlideQty: 4
 			});
+			$("a[data-gal^='prettyPhoto']").prettyPhoto({theme:'facebook'});
 		}); 
 	</script>
 	<!--[if lt IE 8]>
@@ -34,7 +38,7 @@
    		<script type="text/javascript" src="js/html5.js"></script>
 	<![endif]-->
 </head>
-<body id="page2">
+<body id="page3">
 	<!--==============================header=================================-->
     <header>
     	<div class="row-top">
@@ -45,8 +49,8 @@
                        <ul class="menu">
                             <li><a class="active" href="index.html">HOME</a></li>
                             
-                            <li><a href="catalogue.html">MENU </a></li>
-                            <li><a href="shipping.html">CONTACT</a></li>
+                            <li><a href="menu.html">MENU </a></li>
+                            <li><a href="contact.html">CONTACT</a></li>
                             
                             
                         </ul>
@@ -66,207 +70,224 @@
 	<!--==============================content================================-->
     <section id="content"><div class="ic">More Website Templates @ TemplateMonster.com - January 23, 2012!</div>
         <div class="main">
-            <div class="wrapper">
-            	<article class="col-1">
-                	<div class="indent-left">
-                        <div class="img-indent-bot">
-                            <h3 class="prev-indent-bot">Special Offer</h3>
-                            <div class="wrapper img-indent-bot">
-                                <figure class="img-indent"><img src="images/page2-img1.jpg" alt=""></figure>
-                                <div class="extra-wrap">
-                                    <h5>Nam liber tempor cusoluta </h5>
-                                    Nobis eleifend option congue nihil imperdiet doming quod mazim placerat facer possim orem ipsum dolor sit consectetuer.
-                                </div>
-                            </div>
-                            <a class="button-1" href="#">Read More</a>
+            <div class="container">
+            	<h3 class="prev-indent-bot">Catalogue</h3>
+                <div id="slider-2">
+                	<div>
+                    	<div class="p4">
+                            <figure><a class="lightbox-image" href="images/large pictures/Chicken Sweet Corn Soup.jpg" data-gal="prettyPhoto[prettyPhoto]"><img src="images/appetizer/Chicken Sweet Corn Soup.jpg" alt=""></a></figure>
+                            <h5>Chicken Sweet Corn Soup</h5>
+                            <p class="p1"></p>
+                            <p class="p2"><strong class="color-2">Price: $4.40</strong></p>
+                            
                         </div>
-                        <h3 class="p1">Our Best Menus</h3>
-                            <div id="slider">
-                            <div>
-                                <div class="p2">
-                                	<figure><a href="#"><img src="images/page2-img2.jpg" alt=""></a></figure>
-                                    <h5>Nam liber tempor</h5>
-                                    (price $12.95)
-                                </div>
-                                <div class="p2">
-                                	<figure><a href="#"><img src="images/page2-img5.jpg" alt=""></a></figure>
-                                    <h5>Nam liber tempor</h5>
-                                    (price $12.95)
-                                </div>
-                                <figure><a href="#"><img src="images/page2-img8.jpg" alt=""></a></figure>
-                                <h5>Nam liber tempor</h5>
-                                (price $12.95)
-                            </div>
-                            <div>
-                                <div class="p2">
-                                	<figure><a href="#"><img src="images/page2-img3.jpg" alt=""></a></figure>
-                                    <h5>Nam liber tempor</h5>
-                                    (price $12.95)
-                                </div>
-                                <div class="p2">
-                                	<figure><a href="#"><img src="images/page2-img6.jpg" alt=""></a></figure>
-                                    <h5>Nam liber tempor</h5>
-                                    (price $12.95)
-                                </div>
-                                <figure><a href="#"><img src="images/page2-img9.jpg" alt=""></a></figure>
-                                <h5>Nam liber tempor</h5>
-                                (price $12.95)
-                            </div>
-                            <div>
-                                <div class="p2">
-                                	<figure><a href="#"><img src="images/page2-img4.jpg" alt=""></a></figure>
-                                    <h5>Nam liber tempor</h5>
-                                    (price $12.95)
-                                </div>
-                                <div class="p2">
-                                	<figure><a href="#"><img src="images/page2-img7.jpg" alt=""></a></figure>
-                                    <h5>Nam liber tempor</h5>
-                                    (price $12.95)
-                                </div>
-                                <figure><a href="#"><img src="images/page2-img10.jpg" alt=""></a></figure>
-                                <h5>Nam liber tempor</h5>
-                                (price $12.95)
-                            </div>
-                            <div>
-                                <div class="p2">
-                                	<figure><a href="#"><img src="images/page2-img2.jpg" alt=""></a></figure>
-                                    <h5>Nam liber tempor</h5>
-                                    (price $12.95)
-                                </div>
-                                <div class="p2">
-                                	<figure><a href="#"><img src="images/page2-img5.jpg" alt=""></a></figure>
-                                    <h5>Nam liber tempor</h5>
-                                    (price $12.95)
-                                </div>
-                                <figure><a href="#"><img src="images/page2-img8.jpg" alt=""></a></figure>
-                                <h5>Nam liber tempor</h5>
-                                (price $12.95)
-                            </div>
-                            <div>
-                                <div class="p2">
-                                	<figure><a href="#"><img src="images/page2-img3.jpg" alt=""></a></figure>
-                                    <h5>Nam liber tempor</h5>
-                                    (price $12.95)
-                                </div>
-                                <div class="p2">
-                                	<figure><a href="#"><img src="images/page2-img6.jpg" alt=""></a></figure>
-                                    <h5>Nam liber tempor</h5>
-                                    (price $12.95)
-                                </div>
-                                <figure><a href="#"><img src="images/page2-img9.jpg" alt=""></a></figure>
-                                <h5>Nam liber tempor</h5>
-                                (price $12.95)
-                            </div>
-                            <div>
-                                <div class="p2">
-                                	<figure><a href="#"><img src="images/page2-img4.jpg" alt=""></a></figure>
-                                    <h5>Nam liber tempor</h5>
-                                    (price $12.95)
-                                </div>
-                                <div class="p2">
-                                	<figure><a href="#"><img src="images/page2-img7.jpg" alt=""></a></figure>
-                                    <h5>Nam liber tempor</h5>
-                                    (price $12.95)
-                                </div>
-                                <figure><a href="#"><img src="images/page2-img10.jpg" alt=""></a></figure>
-                                <h5>Nam liber tempor</h5>
-                                (price $12.95)
-                            </div>
-                            <div>
-                                <div class="p2">
-                                	<figure><a href="#"><img src="images/page2-img2.jpg" alt=""></a></figure>
-                                    <h5>Nam liber tempor</h5>
-                                    (price $12.95)
-                                </div>
-                                <div class="p2">
-                                	<figure><a href="#"><img src="images/page2-img5.jpg" alt=""></a></figure>
-                                    <h5>Nam liber tempor</h5>
-                                    (price $12.95)
-                                </div>
-                                <figure><a href="#"><img src="images/page2-img8.jpg" alt=""></a></figure>
-                                <h5>Nam liber tempor</h5>
-                                (price $12.95)
-                            </div>
-                            <div>
-                                <div class="p2">
-                                	<figure><a href="#"><img src="images/page2-img3.jpg" alt=""></a></figure>
-                                    <h5>Nam liber tempor</h5>
-                                    (price $12.95)
-                                </div>
-                                <div class="p2">
-                                	<figure><a href="#"><img src="images/page2-img6.jpg" alt=""></a></figure>
-                                    <h5>Nam liber tempor</h5>
-                                    (price $12.95)
-                                </div>
-                                <figure><a href="#"><img src="images/page2-img9.jpg" alt=""></a></figure>
-                                <h5>Nam liber tempor</h5>
-                                (price $12.95)
-                            </div>
-                            <div>
-                                <div class="p2">
-                                	<figure><a href="#"><img src="images/page2-img4.jpg" alt=""></a></figure>
-                                    <h5>Nam liber tempor</h5>
-                                    (price $12.95)
-                                </div>
-                                <div class="p2">
-                                	<figure><a href="#"><img src="images/page2-img7.jpg" alt=""></a></figure>
-                                    <h5>Nam liber tempor</h5>
-                                    (price $12.95)
-                                </div>
-                                <figure><a href="#"><img src="images/page2-img10.jpg" alt=""></a></figure>
-                                <h5>Nam liber tempor</h5>
-                                (price $12.95)
-                            </div>
-                            <div>
-                                <div class="p2">
-                                	<figure><a href="#"><img src="images/page2-img4.jpg" alt=""></a></figure>
-                                    <h5>Nam liber tempor</h5>
-                                    (price $12.95)
-                                </div>
-                                <div class="p2">
-                                	<figure><a href="#"><img src="images/page2-img7.jpg" alt=""></a></figure>
-                                    <h5>Nam liber tempor</h5>
-                                    (price $12.95)
-                                </div>
-                                <figure><a href="#"><img src="images/page2-img10.jpg" alt=""></a></figure>
-                                <h5>Nam liber tempor</h5>
-                                (price $12.95)
-                            </div>
-                        </div>
+						
+						<figure><a class="lightbox-image" href="images/large pictures/Spring Roll.jpg" data-gal="prettyPhoto[prettyPhoto]"><img src="images/appetizer/Spring Roll.jpg" alt=""></a></figure>
+                            <h5>Spring Roll</h5>
+                            <p class="p1"></p>
+                            <p class="p2"><strong class="color-2">Price: $6.40</strong></p>
+                        
+                        
                     </div>
-                </article>
-                <article class="col-2">
-                	<h3>Price List</h3>
-                    <ul class="price-list p2">
-                      <li><span>$12.95</span><a href="#">Nam liber tempor cum soluta nobis eleifend</a></li>
-                      <li><span>$9.50</span><a href="#">Option congue nihil imperdiet doming id quod mazim</a></li>
-                      <li><span>$13.90</span><a href="#">Placerat facer possim assum</a></li>
-                      <li><span>$20.15</span><a href="#">Lorem ipsum dolor sit amet, consectetuer</a></li>
-                      <li><span>$15.05</span><a href="#">Adipiscing elit, sed diam nonummy nibh euismod tincidunt</a></li>
-                      <li><span>$12.95</span><a href="#">Laoreet dolore magna aliquam erat volutpat</a></li>
-                      <li><span>$14.75</span><a href="#">Ut wisi enim ad minim veniam, quis nostrud exerci</a></li>
-                      <li><span>$08.85</span><a href="#">Tation ullamcorper suscipit lobortis nisl</a></li>
-                      <li><span>$12.95</span><a href="#">Aliquip ex ea commodo consequat</a></li>
-                      <li><span>$21.00</span><a href="#">Ut wisi enim ad minim veniam, quis nostrud exerci</a></li>
-                      <li><span>$12.95</span><a href="#">Tation ullamcorper suscipit lobortis nisl ut aliquip ex ea</a></li>
-                      <li><span>$13.35</span><a href="#">Duis autem vel eum iriure dolor in hendrerit</a></li>
-                      <li><span>$12.95</span><a href="#">Vulputate velit esse molestie consequat vel illum dolore</a></li>
-                      <li><span>$12.95</span><a href="#">Feugiat nulla facilisis at vero eros et accumsan</a></li>
-                      <li><span>$12.95</span><a href="#">Iusto odio dignissim qui blandit praesent luptatum</a></li>
-                      <li><span>$18.75</span><a href="#">Azril delenit augue duis dolore te feugait nulla facilisi</a></li>
-                      <li><span>$12.95</span><a href="#">Nam liber tempor cum soluta nobis eleifend option congue</a></li>
-                      <li><span>$17.85</span><a href="#">Hihil imperdiet doming id quod mazim placerat</a></li>
-                      <li><span>$12.95</span><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing</a></li>
-                      <li><span>$22.35</span><a href="#">Sed diam nonummy nibh euismod tincidunt</a></li>
-                      <li><span>$12.95</span><a href="#">Laoreet dolore magna aliquam erat volutpat</a></li>
-                      <li><span>$09.25</span><a href="#">Ut wisi enim ad minim veniam, quis nostrud exerci</a></li>
-                      <li><span>$12.95</span><a href="#">Tation ullamcorper suscipit lobortis nisl</a></li>
-                      <li><span>$17.15</span><a href="#">Nam liber tempor cum soluta nobis eleifend</a></li>
-                      <li><span>$12.95</span><a href="#">Option congue nihil imperdiet doming id quod mazim</a></li>
-                      <li><span>$19.05</span><a href="#">Placerat facer possim assum</a></li>
-                    </ul>
-                    <a class="button-2" href="#">Read More</a>
-                </article>
+                    <div>
+                    	<div class="p4">
+                           <figure><a class="lightbox-image" href="images/large pictures/Wonton Soup.jpg" data-gal="prettyPhoto[prettyPhoto]"><img src="images/appetizer/Wonton Soup.jpg" alt=""></a></figure>
+							<h5>Wonton Soup  </h5>
+							<p class="p1"></p>
+                        <p class="p2"><strong class="color-2">Price: $4.40</strong></p> 
+                            
+                        </div>
+						
+						<figure><a class="lightbox-image" href="images/large pictures/Garlic King Prawn.jpg" data-gal="prettyPhoto[prettyPhoto]"><img src="images/main dishes/Garlic King Prawn.jpg" alt=""></a></figure>
+                        <h5>Garlic King Prawn</h5>
+                        <p class="p1"></p>
+                        <p class="p2"><strong class="color-2">Price: $19.70</strong></p>
+						
+                        
+                        
+                    </div>
+                    <div>
+                    	<div class="p4">
+							<figure><a class="lightbox-image" href="images/large pictures/Fried Wunton.jpg" data-gal="prettyPhoto[prettyPhoto]"><img src="images/appetizer/Fried Wunton.jpg" alt=""></a></figure>
+                            <h5>Fried Wonton</h5>
+                            <p class="p1"></p>
+                            <p class="p2"><strong class="color-2">Price: $6.40</strong></p>
+                            
+                            
+                        </div>
+                        <figure><a class="lightbox-image" href="images/large pictures/Satay Chicken.jpg" data-gal="prettyPhoto[prettyPhoto]"><img src="images/main dishes/Satay Chicken.jpg" alt=""></a></figure>
+                            <h5>Satay Chicken</h5>
+                            <p class="p1"></p>
+                            <p class="p2"><strong class="color-2">Price: $16.80</strong></p>
+                        
+                    </div>
+                    <div>
+                    	<div class="p4">
+                            <figure><a class="lightbox-image" href="images/large pictures/Fried Dim Sim.jpg" data-gal="prettyPhoto[prettyPhoto]"><img src="images/appetizer/Fried Dim Sim.jpg" alt=""></a></figure>
+                        <h5>Fried Dim Sim</h5>
+                        <p class="p1"></p>
+                        <p class="p2"><strong class="color-2">Price: $5.60</strong></p>
+                            
+                        </div>
+                        <figure><a class="lightbox-image" href="images/large pictures/Mongolian Beef.jpg" data-gal="prettyPhoto[prettyPhoto]"><img src="images/main dishes/Mongolian Beef.jpg" alt=""></a></figure>
+                        <h5>Mongolian Beef</h5>
+                        <p class="p1"></p>
+                        <p class="p2"><strong class="color-2">Price: $16.60</strong></p>
+                        
+                    </div>
+                    <div>
+                    	<div class="p4">
+                            <figure><a class="lightbox-image" href="images/large pictures/Beef Cashnuts.jpg" data-gal="prettyPhoto[prettyPhoto]"><img src="images/main dishes/Beef Cashnuts.jpg" alt=""></a></figure>
+                            <h5>Beef Cashewnuts</h5>
+                            <p class="p1"></p>
+                            <p class="p2"><strong class="color-2">Price: $15.60</strong></p>
+                            
+                        </div>
+                        <figure><a class="lightbox-image" href="images/large pictures/Honey Chicken.jpg" data-gal="prettyPhoto[prettyPhoto]"><img src="images/main dishes/Honey Chicken.jpg" alt=""></a></figure>
+                            <h5>Honey Chicken</h5>
+                            <p class="p1"></p>
+                            <p class="p2"><strong class="color-2">Price: $16.20</strong></p>
+                        
+                    </div>
+                    <div>
+                    	<div class="p4">
+							<figure><a class="lightbox-image" href="images/large pictures/Sichuan chicken.jpg" data-gal="prettyPhoto[prettyPhoto]"><img src="images/main dishes/Sichuan chicken.jpg" alt=""></a></figure>
+							<h5>Szechuan Chicken</h5>
+							<p class="p1"></p>
+							<p class="p2"><strong class="color-2">Price: $16.60</strong></p>
+                            
+                            
+                        </div>
+							<figure><a class="lightbox-image" href="images/large pictures/Boneless Lemon Chicken.jpg" data-gal="prettyPhoto[prettyPhoto]"><img src="images/main dishes/Boneless Lemon Chicken.jpg" alt=""></a></figure>
+							<h5>Boneless Lemon Chicken</h5>
+							<p class="p1"></p>
+							<p class="p2"><strong class="color-2">Price: $16.20</strong></p>
+                        
+                    </div>
+                    <div>
+                    	<div class="p4">
+							<figure><a class="lightbox-image" href="images/large pictures/Curry Combination.jpg" data-gal="prettyPhoto[prettyPhoto]"><img src="images/main dishes/Curry Combination.jpg" alt=""></a></figure>
+                            <h5>Curry Combination</h5>
+                            <p class="p1"></p>
+                            <p class="p2"><strong class="color-2">Price: $15.80</strong></p>
+                            
+                            
+                        </div>
+						<figure><a class="lightbox-image" href="images/large pictures/Fried King Prawn.jpg" data-gal="prettyPhoto[prettyPhoto]"><img src="images/main dishes/Fried King Prawn.jpg" alt=""></a></figure>
+                            <h5>Fried King Prawn</h5>
+                            <p class="p1"></p>
+                            <p class="p2"><strong class="color-2">Price: $19.70</strong></p>
+                        
+                        
+                    </div>
+                    <div>
+                    	<div class="p4">
+							<figure><a class="lightbox-image" href="images/large pictures/Sweet and Sour Pork.jpg" data-gal="prettyPhoto[prettyPhoto]"><img src="images/main dishes/Sweet and Sour Pork.jpg" alt=""></a></figure>
+							<h5>Sweet & Sour Pork</h5>
+							<p class="p1"></p>
+							<p class="p2"><strong class="color-2">Price: $14.60</strong></p>
+                            
+                            
+                        </div>
+                        <figure><a class="lightbox-image" href="images/large pictures/Hot & Spicy Squid.jpg" data-gal="prettyPhoto[prettyPhoto]"><img src="images/main dishes/Hot & Spicy Squid.jpg" alt=""></a></figure>
+                        <h5>Hot & Spicy Squid</h5>
+                        <p class="p1"></p>
+                        <p class="p2"><strong class="color-2">Price: $17.30</strong></p>
+                        
+                    </div>
+                    <div>
+                    	<div class="p4">
+                            <figure><a class="lightbox-image" href="images/large pictures/Peking Pork Spare Ribs.jpg" data-gal="prettyPhoto[prettyPhoto]"><img src="images/main dishes/Peking Pork Spare Ribs.jpg" alt=""></a></figure>
+                            <h5>Peking Pork Spare Ribs </h5>
+                            <p class="p1"></p>
+                            <p class="p2"><strong class="color-2">Price: $16.60</strong></p>
+                            
+                        </div>
+						<figure><a class="lightbox-image" href="images/large pictures/Vegetable with Bean Curd.jpg" data-gal="prettyPhoto[prettyPhoto]"><img src="images/main dishes/Vegetable with Bean Curd.jpg" alt=""></a></figure>
+                            <h5>Vegetable with Bean Curd</h5>
+                            <p class="p1"></p>
+                            <p class="p2"><strong class="color-2">Price: $11.30</strong></p>
+                        
+                        
+                    </div>
+                    <div>
+                    	<div class="p4">
+							<figure><a class="lightbox-image" href="images/large pictures/Plain Omelette.jpg" data-gal="prettyPhoto[prettyPhoto]"><img src="images/main dishes/Plain Omelette.jpg" alt=""></a></figure>
+                        <h5>Plain Omelette</h5>
+                        <p class="p1"></p>
+                        <p class="p2"><strong class="color-2">Price: $12.95</strong></p>
+                            
+                            
+                        </div>
+						<figure><a class="lightbox-image" href="images/large pictures/Fish & chips.jpg" data-gal="prettyPhoto[prettyPhoto]"><img src="images/main dishes/Fish & chips.jpg" alt=""></a></figure>
+                        <h5>Fish & Chip</h5>
+                        <p class="p1"></p>
+                        <p class="p2"><strong class="color-2">Price:  $10.50</strong></p>
+                        
+                        
+                    </div>
+					<div>
+                    	<div class="p4">
+							<figure><a class="lightbox-image" href="images/large pictures/Ma Po To Fu.jpg" data-gal="prettyPhoto[prettyPhoto]"><img src="images/main dishes/Ma Po To Fu.jpg" alt=""></a></figure>
+                            <h5>Ma Po To Fu</h5>
+                            <p class="p1"></p>
+                            <p class="p2"><strong class="color-2">Price: $9.50</strong></p>
+							
+                            
+                            
+                        </div>
+							<figure><a class="lightbox-image" href="images/large pictures/Combination with Soft Noodles.jpg" data-gal="prettyPhoto[prettyPhoto]"><img src="images/deserts/Combination with Soft Noodles.jpg" alt=""></a></figure>
+                            <h5>Combination with Soft Noodles</h5>
+                            <p class="p1"></p>
+                            <p class="p2"><strong class="color-2">Price: $17.20</strong></p>
+                        
+                    </div>
+					<div>
+                    	<div class="p4">
+							<figure><a class="lightbox-image" href="images/large pictures/San Choy Bow.jpg" data-gal="prettyPhoto[prettyPhoto]"><img src="images/main dishes/San Choy Bow.jpg" alt=""></a></figure>
+                        <h5>San Choy Bow</h5>
+                        <p class="p1"></p>
+                        <p class="p2"><strong class="color-2">Price: $9.50</strong></p>
+                            
+                            
+                        </div>
+                        <figure><a class="lightbox-image" href="images/large pictures/Singapore Mei Fun.jpg" data-gal="prettyPhoto[prettyPhoto]"><img src="images/deserts/Singapore Mei Fun.jpg" alt=""></a></figure>
+                        <h5>Singapore Mei Fun</h5>
+                        <p class="p1"></p>
+                        <p class="p2"><strong class="color-2">Price: $15.00</strong></p>
+                        
+                    </div>
+					<div>
+                    	<div class="p4">
+                            <figure><a class="lightbox-image" href="images/large pictures/Stir Fried Noodle.jpg" data-gal="prettyPhoto[prettyPhoto]"><img src="images/deserts/Stir Fried Noodle.jpg" alt=""></a></figure>
+                            <h5>Fried Soft Noodles</h5>
+                            <p class="p1"></p>
+                            <p class="p2"><strong class="color-2">Price: $12.80</strong></p>
+                            
+                        </div>
+                        <figure><a class="lightbox-image" href="images/large pictures/Steamed Rice.jpg" data-gal="prettyPhoto[prettyPhoto]"><img src="images/deserts/Steamed Rice.jpg" alt=""></a></figure>
+                            <h5>Steamed Rice</h5>
+                            <p class="p1"></p>
+                            <p class="p2"><strong class="color-2">Price: $4.40</strong></p>
+                        
+                    </div>
+					<div>
+                    	<div class="p4">
+							<figure><a class="lightbox-image" href="images/large pictures/Special Fried Rice.jpg" data-gal="prettyPhoto[prettyPhoto]"><img src="images/deserts/Special Fried Rice.jpg" alt=""></a></figure>
+							<h5>Special Fried Rice</h5>
+							<p class="p1"></p>
+							<p class="p2"><strong class="color-2">Price: $10.20</strong></p>
+                            
+                            
+                        </div>
+                        <figure><a class="lightbox-image" href="images/large pictures/Fried Ice Cream.jpg" data-gal="prettyPhoto[prettyPhoto]"><img src="images/deserts/Fried Ice Cream.jpg" alt=""></a></figure>
+                        <h5>Fried Ice Cream</h5>
+                        <p class="p1"></p>
+                        <p class="p2"><strong class="color-2">Price: $4.80</strong></p>
+                        
+                    </div>
+					
+                </div>
             </div>
         </div>
     </section>
@@ -275,7 +296,7 @@
     <footer>
         <div class="main">
         	<div class="aligncenter">
-            	<span>Catering &copy; 2013 <a rel="nofollow" class="link" target="_blank" href="http://www.templatemonster.com/">by ahaic </a></span>
+            	<span>  Copyright &copy; 2013 SeaGrove Chinese <a rel="nofollow" class="link" target="_blank"> </a></span>
                   
             </div>
         </div>
